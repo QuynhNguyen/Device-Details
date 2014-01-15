@@ -8,21 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-//EZAudio
-#import "EZAudio.h"
+////EZAudio
+//#import "EZAudio.h"
 //Accelerate
 #import <Accelerate/Accelerate.h>
 
-@interface DDAudioPlotViewController : UIViewController <EZMicrophoneDelegate>
+@interface DDAudioPlotViewController : UIViewController // <EZMicrophoneDelegate>
 
 
-
-//  EZAudioPlot for frequency plot
-@property (nonatomic,weak) IBOutlet EZAudioPlot *audioPlotFreq;
-//  EZAudioPlot for time plot
-@property (nonatomic,weak) IBOutlet EZAudioPlotGL *audioPlotTime;
-//  Microphone
-@property (nonatomic,strong) EZMicrophone *microphone;
+//
+////  EZAudioPlot for frequency plot
+//@property (nonatomic,weak) IBOutlet EZAudioPlot *audioPlotFreq;
+////  EZAudioPlot for time plot
+//@property (nonatomic,weak) IBOutlet EZAudioPlotGL *audioPlotTime;
+////  Microphone
+//@property (nonatomic,strong) EZMicrophone *microphone;
 
 
 @end

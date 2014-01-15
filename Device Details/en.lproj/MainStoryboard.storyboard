@@ -1009,10 +1009,10 @@
             </objects>
             <point key="canvasLocation" x="662" y="29"/>
         </scene>
-        <!--Audio Plot View Controller-->
+        <!--Singleaudio View Controller-->
         <scene sceneID="krT-B1-u4P">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="8to-ry-eXX" customClass="DDAudioPlotViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="8to-ry-eXX" customClass="singleaudioViewController" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="odW-dk-gmm">
                         <rect key="frame" x="0.0" y="0.0" width="322" height="231"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1045,10 +1045,6 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <connections>
-                        <outlet property="audioPlotFreq" destination="YSf-Lq-HaF" id="hdD-xV-aha"/>
-                        <outlet property="audioPlotTime" destination="bKH-hk-Vgt" id="8QJ-CZ-x9G"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kRi-zn-Mu2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
