@@ -6,8 +6,13 @@
 */
 
 #import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
-
-@interface ALRangingViewController : UITableViewController <CLLocationManagerDelegate>
+//#import <CoreLocation/CoreLocation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+@interface ALRangingViewController : UITableViewController <
+//CLLocationManagerDelegate,
+CBPeripheralDelegate, CBCentralManagerDelegate> {
+    CBCentralManager *centralManager;
+    NSDictionary *options;
+}
 
 @end

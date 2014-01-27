@@ -17,6 +17,7 @@
 		49CE10E718766DE20020031C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E137D18217CAF03D0001A6CF /* Foundation.framework */; };
 		49CE10EA1876734B0020031C /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		49CE10EB187673530020031C /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		49D4B04718954EEC001412C4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D4B04618954EEC001412C4 /* CoreBluetooth.framework */; };
 		49E7D88818895EEE0096C450 /* iPhone 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E7D88618895EEE0096C450 /* iPhone 57.png */; };
 		49E7D88918895EEE0096C450 /* iPhone 57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E7D88718895EEE0096C450 /* iPhone 57@2x.png */; };
 		49E7D88C188960B50096C450 /* iPhone 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E7D88A188960B50096C450 /* iPhone 120.png */; };
@@ -119,6 +120,7 @@
 		499997611874F38D00D3A605 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		499997631874F92900D3A605 /* DDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainViewController.h; sourceTree = "<group>"; };
 		499997641874F92900D3A605 /* DDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainViewController.m; sourceTree = "<group>"; };
+		49D4B04618954EEC001412C4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		49E7D88618895EEE0096C450 /* iPhone 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone 57.png"; path = "Artworks/iPhone 57.png"; sourceTree = "<group>"; };
 		49E7D88718895EEE0096C450 /* iPhone 57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone 57@2x.png"; path = "Artworks/iPhone 57@2x.png"; sourceTree = "<group>"; };
 		49E7D88A188960B50096C450 /* iPhone 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone 120.png"; path = "Artworks/iPhone 120.png"; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D4B04718954EEC001412C4 /* CoreBluetooth.framework in Frameworks */,
 				49CE10E718766DE20020031C /* Foundation.framework in Frameworks */,
 				E176DB1418923367000224F8 /* CoreFoundation.framework in Frameworks */,
 				E137D18117CAF03D0001A6CF /* UIKit.framework in Frameworks */,
@@ -484,6 +487,7 @@
 		E137D17F17CAF03D0001A6CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49D4B04618954EEC001412C4 /* CoreBluetooth.framework */,
 				E176DB1318923367000224F8 /* CoreFoundation.framework */,
 				E176DB1118923338000224F8 /* Security.framework */,
 				E176DB0F1892332F000224F8 /* ExternalAccessory.framework */,
